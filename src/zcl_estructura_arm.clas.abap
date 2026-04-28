@@ -29,8 +29,9 @@ CLASS zcl_estructura_arm IMPLEMENTATION.
           ""segunda forma
           DATA(ls_cliente2) = value ty_cliente( nombre = 'fer' edad = 32 correo = 'sdfjhsdjfjhsd' ).
           out->write( ls_cliente2 ).
-
+            "segundo commit
             ""tercera forma
+
 
   ENDMETHOD.
 
